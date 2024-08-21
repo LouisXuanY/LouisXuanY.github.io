@@ -18,7 +18,7 @@ function setUserName() {
       setUserName();
     } else {
       localStorage.setItem("name", myName);
-      myHeading.textContent = "Mozilla 酷毙了，" + myName;
+      myHeading.textContent = "欢迎来到我的主页" + myName;
     }
   }
   
