@@ -22,7 +22,7 @@ li {
   }
   
   main {
-    width: 900px;
+    width: 80vw;
     margin: 0 auto;
     background-color: #90CBFB;
     padding: 0 20px 20px 20px;
@@ -33,7 +33,7 @@ li {
     display: block;
     margin: 0 auto;
     width: 600px;
-
+    max-width: 100%;
   }
 
   button {
@@ -79,7 +79,7 @@ li {
     float: left;
     position: sticky;
     top: 0px;
-    background-color: #90CBFB;
+    background-color: lightpink;
   }
 
   nav a:link {
@@ -87,7 +87,7 @@ li {
     margin: 10px;
     text-align: center;
     justify-content: space-between;
-    background-color: #90CBFB;
+    background-color: lightpink;
     text-decoration: none;
     color: initial;
   }
@@ -118,6 +118,8 @@ li {
   nav ul li{
     line-height: 120px;
   }
+
+  
 
   
   
