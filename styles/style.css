@@ -1,15 +1,20 @@
 html {
     font-size: 20px; /* px 表示“像素（pixel）”: 基础字号为 10 像素 */
     font-family: "Open Sans", sans-serif; /* 这应该是你从 Google Fonts 得到的其余输出。 */
-    
+    background: rgb(203,218,234);
+    background: linear-gradient(180deg, rgba(203,218,234,1) 7%, rgba(141,184,228,1) 25%, rgba(85,149,214,1) 53%, rgba(40,125,209,1) 86%, rgba(2,82,163,1) 100%);
   }
   
+body{
+  height: 2200px;
+}
+
 h1 {
     font-size: 60px;
     text-align: left;
     margin: 0;
     padding: 20px 0;
-    color: #00539f;
+    color: rgb(255, 255, 255);
     text-shadow: 3px 3px 1px black;
   }
   
@@ -24,20 +29,23 @@ li {
   main {
     width: 80vw;
     margin: 0 auto;
-    background-color: #90CBFB;
+    background: rgb(203,218,234);
+    background: linear-gradient(180deg, rgba(203,218,234,1) 7%, rgba(141,184,228,1) 25%, rgba(85,149,214,1) 53%, rgba(40,125,209,1) 86%, rgba(2,82,163,1) 100%);
     padding: 0 20px 20px 20px;
-    border: 5px solid black;
+    border: 3px solid black;
+    border-radius: 15px;
   }
 
   img {
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
     width: 600px;
     max-width: 100%;
   }
 
   button {
     display: block;
+    margin: 5px;
   }
 
   @media (max-width: 30em) {
@@ -77,9 +85,10 @@ li {
 
   nav {
     float: left;
-    position: sticky;
-    top: 0px;
-    background-color: lightpink;
+    position: fixed;
+    top: 10vw;
+    border: 2px solid black;
+    border-radius: 10px;
   }
 
   nav a:link {
@@ -87,7 +96,6 @@ li {
     margin: 10px;
     text-align: center;
     justify-content: space-between;
-    background-color: lightpink;
     text-decoration: none;
     color: initial;
   }
@@ -116,7 +124,11 @@ li {
   }
 
   nav ul li{
-    line-height: 120px;
+    line-height: 100px;
+  }
+
+  footer{
+    margin-top: 200px;
   }
 
   
