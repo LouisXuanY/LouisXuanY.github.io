@@ -2,7 +2,8 @@ html {
     font-size: 20px; /* px 表示“像素（pixel）”: 基础字号为 10 像素 */
     font-family: "Open Sans", sans-serif; /* 这应该是你从 Google Fonts 得到的其余输出。 */
     background: rgb(203,218,234);
-    background: linear-gradient(180deg, rgba(203,218,234,1) 7%, rgba(141,184,228,1) 25%, rgba(85,149,214,1) 53%, rgba(40,125,209,1) 86%, rgba(2,82,163,1) 100%);
+    background: linear-gradient(180deg, rgba(203,218,234,1) 7%, rgba(141,184,228,1) 25%, rgba(85,149,214,1) 100%);
+
   }
   
 body{
@@ -28,9 +29,8 @@ li {
   
   main {
     width: 80vw;
+    height: 190vh;
     margin: 0 auto;
-    background: rgb(203,218,234);
-    background: linear-gradient(180deg, rgba(203,218,234,1) 7%, rgba(141,184,228,1) 25%, rgba(85,149,214,1) 53%, rgba(40,125,209,1) 86%, rgba(2,82,163,1) 100%);
     padding: 0 20px 20px 20px;
     border: 3px solid black;
     border-radius: 15px;
@@ -128,7 +128,11 @@ li {
   }
 
   footer{
-    margin-top: 200px;
+    margin-top: 150px;
+  }
+
+  footer p {
+    text-align: right;
   }
 
   
